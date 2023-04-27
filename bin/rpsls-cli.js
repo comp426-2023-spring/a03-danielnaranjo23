@@ -32,7 +32,7 @@ else if (args.r || args.rules) {
     console.log("  - Rock CRUSHES Scissors");
 }
 else {
-    var output = rpsls(args._[0]);
+    let output = rpsls(args._[0]);
     if (output != 'error'){
         console.log(JSON.stringify(output));
     }
