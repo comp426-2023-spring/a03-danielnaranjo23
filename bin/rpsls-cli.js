@@ -19,7 +19,7 @@ if (args.h || args.help) {
     console.log("                  e.g {'player':'rock','opponent':'Spock','result':'lose'}");
 }
 else if (args.r || args.rules) {
-    console.log("Rules for Rock Paper Scissors:");
+    console.log("Rules for the Lizard-Spock Expansion of Rock Paper Scissors:");
     console.log("  - Scissors CUTS Paper");
     console.log("  - Paper COVERS Rock");
     console.log("  - Rock SMOOSHES Lizard");
@@ -52,7 +52,7 @@ else {
         console.log("                  e.g {'player':'rock','opponent':'Spock','result':'lose'}");
 
         // GET RULES____________________________
-        console.log("Rules for Rock Paper Scissors:");
+        console.log("Rules for the Lizard-Spock Expansion of Rock Paper Scissors:");
         console.log("  - Scissors CUTS Paper");
         console.log("  - Paper COVERS Rock");
         console.log("  - Rock SMOOSHES Lizard");
