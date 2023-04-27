@@ -3,7 +3,7 @@
 import minimist from 'minimist';
 import { rps } from "../lib/rpsls.js"
 
-const args = minimist(process.argv.sice(2));
+const args = minimist(process.argv.slice(2));
 
 if (args.h || args.help) {
     console.log("Usage: node-rps [SHOT]");
@@ -25,7 +25,7 @@ else if (args.r || args.rules) {
     console.log("  - Rock CRUSHES Scissors");
 }
 else {
-    var output = rps(args._[0]);
+    let output = rps(args._[0]);
     if (output != 'error'){
         console.log(JSON.stringify(output));
     }
