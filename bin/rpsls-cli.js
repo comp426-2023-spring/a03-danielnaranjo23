@@ -8,10 +8,10 @@ const args = minimist(process.argv.slice(2));
 if (args.h || args.help) {
     console.log("Usage: node-rpsls [SHOT]");
     console.log("Play the Lizard-Spock Expansion of Rock Paper Scissors (RPSLS)!)")
-    console.log("\n");
+    console.log("");
     console.log('  -h, --help      display this help message and exit');
     console.log('  -r, --rules     display the rules and exit');
-    console.log("\n");
+    console.log("");
     console.log("Examples:");
     console.log("  node-rps        Return JSON with single player RPS result.");
     console.log("                 e.g. {'player':'rock'}");
@@ -41,10 +41,10 @@ else {
         // GET HELP__________________________
         console.log("Usage: node-rpsls [SHOT]");
         console.log("Play the Lizard-Spock Expansion of Rock Paper Scissors (RPSLS)!)")
-        console.log("\n");
+        console.log("");
         console.log('  -h, --help      display this help message and exit');
         console.log('  -r, --rules     display the rules and exit');
-        console.log("\n");
+        console.log("");
         console.log("Examples:");
         console.log("  node-rps        Return JSON with single player RPS result.");
         console.log("                 e.g. {'player':'rock'}");
