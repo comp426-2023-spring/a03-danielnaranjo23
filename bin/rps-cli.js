@@ -30,7 +30,7 @@ else {
         console.log(JSON.stringify(output));
     }
     else {
-        console.error(args._[0] + " is out of range.");
+        console.error(`${args._[0]} is out of range.`);
         // GET HELP__________________________
         console.log("Usage: node-rps [SHOT]");
         console.log("Play Rock Paper Scissors (RPS)")

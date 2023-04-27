@@ -37,7 +37,7 @@ else {
         console.log(JSON.stringify(output));
     }
     else {
-        console.error(args._[0] + " is out of range.");
+        console.error(`${args._[0]} is out of range.`);
         // GET HELP__________________________
         console.log("Usage: node-rpsls [SHOT]");
         console.log("Play the Lizard-Spock Expansion of Rock Paper Scissors (RPSLS)!)")
